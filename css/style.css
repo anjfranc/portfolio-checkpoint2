@@ -1,0 +1,96 @@
+
+h1{
+    font-size: 37px;
+    font-style:italic;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman';
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:50px;
+    margin-left:70px;
+    
+}
+footer{
+    background-color: #8DCF8B;
+    padding: 32px 8px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+    nav li{
+        padding: 12px;
+        font-size: 20px;
+        color: #000;
+        border:inset;
+        border:outset;
+        display:inline-block;
+        background-color: #8DCF8B;
+        width:200px;
+        text-align: center;
+        border:1px solid black;
+    }
+    
+    .active{
+        background-color: #8DCF8B;
+        color: #000;
+        font-size: 28px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 2px solid #06401C}
+
+main{
+    font-size: 20px;
+}
+
+.skip{
+    font-size: 20px;
+}
+
+
+img{
+margin-left: 30px;
+margin-top: 30px;
+width: 450px;
+height: 400px;
+border: 7px solid #06401C;
+border-radius: 25px;
+padding: 25px;
+}
+
+
+.caves{
+    width: 450px;
+    height:350px;
+}
+
+img:hover{
+    filter:sepia(50%);
+    border:groove;
+ } 
+
+figure:nth-child(even) img{
+    border: 15px solid #000;
+} 
+
+/* Dr.Coleen said I can do nth-child(even) */
+
+.home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 600px;
+
+}
+
+.sari{
+    width: 450px;
+    height:500px;
+}
