@@ -79,7 +79,7 @@ figure:nth-child(even) img{
     border: 15px solid #000;
 } 
 
-/* Dr.Coleen said I can do nth-child(even) */
+/* Dr.Coleen helped me with the nth-child and said I can do nth-child(even) */
 
 .home{
     display: block;
